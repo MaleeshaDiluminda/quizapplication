@@ -22,6 +22,8 @@ public class QuestionService {
     }
 
     public Question addQuestion(Question question) {
+        System.out.println("Hello");
         return questionDao.save(question);
+
     }
 }
